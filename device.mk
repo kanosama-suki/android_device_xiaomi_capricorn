@@ -16,7 +16,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/gemini/gemini-vendor.mk)
+$(call inherit-product, vendor/xiaomi/capricorn/capricorn-vendor.mk)
 
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -38,6 +38,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # ConfigPanel
 PRODUCT_PACKAGES += \
     ConfigPanel
@@ -52,7 +56,12 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service
+    android.hardware.biometrics.fingerprint@2.1-service \
+    android.hardware.biometrics.fingerprint@2.1 
+
+# FlipFlap
+PRODUCT_PACKAGES += \
+    FlipFlap
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -74,7 +83,9 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # TFA calibration
 PRODUCT_PACKAGES += \
-    tfa-calib
+    tfa-calib \
+    init.tfa.sh \
+    tinyplay
 
 # Touch HAL
 PRODUCT_PACKAGES += \

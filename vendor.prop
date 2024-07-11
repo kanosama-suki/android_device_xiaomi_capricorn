@@ -1,5 +1,5 @@
 # Bluetooth
-bluetooth.device.default_name=Xiaomi Mi 5
+bluetooth.device.default_name=Xiaomi Mi 5s
 
 # USB
-vendor.usb.product_string=Xiaomi Mi 5
+vendor.usb.product_string=Xiaomi Mi 5s

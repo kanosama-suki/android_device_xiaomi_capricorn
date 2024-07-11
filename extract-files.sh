@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=gemini
+export DEVICE=capricorn
 export DEVICE_COMMON=msm8996-common
 export VENDOR=xiaomi
 

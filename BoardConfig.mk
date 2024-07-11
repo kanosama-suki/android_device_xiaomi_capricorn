@@ -18,10 +18,10 @@
 # Inherit from common msm8996-common
 -include device/xiaomi/msm8996-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/gemini
+DEVICE_PATH := device/xiaomi/capricorn
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := gemini
+TARGET_OTA_ASSERT_DEVICE := capricorn
 
 # Board
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
@@ -30,10 +30,10 @@ TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/gemini.config
+TARGET_KERNEL_CONFIG += vendor/xiaomi/capricorn.config
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit from the proprietary version
--include vendor/xiaomi/gemini/BoardConfigVendor.mk
+-include vendor/xiaomi/capricorn/BoardConfigVendor.mk
