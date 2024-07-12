@@ -38,10 +38,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # ConfigPanel
 PRODUCT_PACKAGES += \
     ConfigPanel
@@ -56,8 +52,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service \
-    android.hardware.biometrics.fingerprint@2.1 
+    android.hardware.biometrics.fingerprint@2.1
 
 # FlipFlap
 PRODUCT_PACKAGES += \
@@ -84,7 +79,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # TFA calibration
 PRODUCT_PACKAGES += \
     tfa-calib \
-    init.tfa.sh \
     tinyplay
 
 # Touch HAL
@@ -93,7 +87,6 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine-8996-lite.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8996-lite.conf \
     $(LOCAL_PATH)/configs/thermal-engine-8996.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8996.conf
 
 # WiFi
