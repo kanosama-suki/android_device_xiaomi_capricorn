@@ -18,7 +18,7 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fingerprint=fpc \
     sys.fpc.tu.disabled=0 \
-    persist.qfp=true \
+    persist.qfp=false \
     persist.qfp.fd_enabled=1 \
     persist.qfp.home_btn_enabled=1 \
     persist.qfp.ssc_enable_island=1 \
