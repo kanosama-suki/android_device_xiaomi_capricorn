@@ -5,7 +5,7 @@ Copyright (C) 2017-2018 - The LineageOS Project
 Device configuration for Xiaomi Mi 5
 ==============
 
-The Xiaomi Mi 5 (codenamed _"gemini"_) is a high-end smartphone from Xiaomi.
+The Xiaomi Mi 5s (codenamed _"capricorn"_) is a high-end smartphone from Xiaomi.
 
 It was announced in February 2016, in three flavours. Release date was April 2016.
 
@@ -25,4 +25,4 @@ It was announced in February 2016, in three flavours. Release date was April 201
 
 ## Device picture
 
-![Xiaomi Mi 5](http://xiaomi-mi.com/uploads/CatalogueImage/xiaomi-mi-5-black-01_14051_1456305832.jpg "Xiaomi Mi 5 in black")
+![Xiaomi Mi 5s](http://xiaomi-mi.com/uploads/CatalogueImage/xiaomi-mi-5s-black-01_14051_1456305832.jpg "Xiaomi Mi 5s in black")
